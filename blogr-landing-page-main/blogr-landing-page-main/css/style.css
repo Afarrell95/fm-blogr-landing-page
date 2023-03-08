@@ -67,8 +67,8 @@ button {
 
 .main-heading {
     text-align: center;
-    font-size: 35px;
-    font-weight: 500;
+    font-size: 2.5rem;
+    font-weight: bolder;
     color: var(--very-dark-blue-headings);
     margin: var(--main-margin);
 }
@@ -76,7 +76,7 @@ button {
 @media (max-width:1000px) {
     .main-heading {
         margin: 100px 0;
-        font-size: 30px;
+        font-size: 2rem;
     }
 }
 
@@ -177,6 +177,7 @@ header ul:last-of-type button:hover,
 
 .active-list {
     display: block;
+
 }
 
 .list-one span,
@@ -195,7 +196,6 @@ header ul:last-of-type button:hover,
     color: black;
 }
 
-/* Home  */
 .home {
     height: 75vh;
     display: flex;
@@ -205,12 +205,12 @@ header ul:last-of-type button:hover,
 }
 
 .home h1 {
-    font-size: 50px;
+    font-size: 3.5rem;
     font-weight: 500;
 }
 
 .home p {
-    margin: 30px 0;
+    margin: 2.3em 0;
 }
 
 .home button:first-of-type {
@@ -247,6 +247,8 @@ header ul:last-of-type button:hover,
     display: none;
 }
 
+
+
 @media (max-width:1000px) {
 
 .home{
@@ -254,8 +256,9 @@ header ul:last-of-type button:hover,
 }
     .menu {
         display: inline-block;
+        
     }
-
+   
 
     header .links {
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -276,7 +279,7 @@ header ul:last-of-type button:hover,
         transition: var(--main-transition);
         border-radius: 10px;
         padding: 0 1em;
-
+    
     }
 
     header .links.active {
@@ -295,7 +298,7 @@ header ul:last-of-type button:hover,
     }
 
     header ul:last-of-type {
-        margin-top: 40px;
+        margin-top: 3em;
     }
 
     header ul:last-of-type a {
@@ -404,9 +407,6 @@ header ul:last-of-type button:hover,
     }
 }
 
-/* ####################### End section One ####################### */
-
-/* ####################### Start section Two ####################### */
 .second {
     margin-bottom: var(--main-margin);
     background-image: url(../images/bg-pattern-circles.svg);
@@ -475,9 +475,6 @@ header ul:last-of-type button:hover,
     }
 }
 
-/* ####################### End section Two ####################### */
-/* ####################### Start section Three ####################### */
-
 .three {
     margin-bottom: var(--main-margin);
     position: relative;
@@ -535,11 +532,6 @@ header ul:last-of-type button:hover,
     }
 }
 
-/* ####################### End section Three ####################### */
-
-
-/* ####################### Start Footer ####################### */
-
 footer {
     background-color: var(--very-dark-black-blue-footer-background);
     margin-top: var(--main-margin);
@@ -593,4 +585,3 @@ footer .footer-content ul li.bold {
     color: hsl(228, 45%, 44%);
 }
 
-/* ####################### End Footer ####################### */
