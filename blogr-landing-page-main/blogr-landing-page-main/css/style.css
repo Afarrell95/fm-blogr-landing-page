@@ -54,7 +54,6 @@ button {
 
 button {
     transition: var(--main-transition);
-  
     border-radius: 50px;
    font-size: 1.1rem;
     border: none;
