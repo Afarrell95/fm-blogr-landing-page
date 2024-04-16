@@ -319,7 +319,7 @@ header ul:last-of-type button:hover,
     }
 
     header ul li .arrow {
-        content: url("../images/icon-arrow-dark.svg");
+        content: url(./images/icon-arrow-dark.svg);
     }
 
     .list-one,
