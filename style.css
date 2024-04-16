@@ -82,7 +82,7 @@ button {
 
 .landing {
     position: relative;
-    background-image: url(../images/bg-pattern-intro-desktop.svg);
+    background-image: url(./images/bg-pattern-intro-desktop.svg);
     background-size: cover;
     background-position: 34% 53%;
     background-repeat: no-repeat;
@@ -396,7 +396,7 @@ header ul:last-of-type button:hover,
 
     .section1-content img {
         position: static;
-        content: url(../images/illustration-editor-mobile.svg);
+        content: url(./images/illustration-editor-mobile.svg);
         width: 400px;
         margin: 100px 0 -110px;
     }
@@ -408,7 +408,7 @@ header ul:last-of-type button:hover,
 
 .second {
     margin-bottom: var(--main-margin);
-    background-image: url(../images/bg-pattern-circles.svg);
+    background-image: url(./images/bg-pattern-circles.svg);
     background-repeat: no-repeat;
     background-position: bottom left;
     background-color: var(--very-dark-gray-blue);
@@ -520,7 +520,7 @@ header ul:last-of-type button:hover,
 
     .three img {
         position: static;
-        content: url("../images/illustration-laptop-mobile.svg");
+        content: url("./images/illustration-laptop-mobile.svg");
         width: 400px;
         margin-bottom: -130px;
     }
